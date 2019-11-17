@@ -1,0 +1,12 @@
+ALTER TABLE "stock_cell" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "stock" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "company" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "tth" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "carrier" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "driver" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "stock_app_user" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "client" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "cancellation_act" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "good" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "inconsistency_act" ADD COLUMN "deleted" boolean not null;
+ALTER TABLE "container" ADD COLUMN "deleted" boolean not null;

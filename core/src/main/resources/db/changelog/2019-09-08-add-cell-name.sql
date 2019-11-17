@@ -1,0 +1,1 @@
+ALTER TABLE stock_cell ADD COLUMN name VARCHAR(30);

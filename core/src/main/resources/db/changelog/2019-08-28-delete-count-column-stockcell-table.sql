@@ -1,0 +1,1 @@
+ALTER TABLE stock_cell DROP COLUMN count_on_stock;

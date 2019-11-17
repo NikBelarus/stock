@@ -1,0 +1,1 @@
+ALTER TABLE stock_app_user ADD COLUMN salary numeric(10,2) NOT NULL DEFAULT 100.0;

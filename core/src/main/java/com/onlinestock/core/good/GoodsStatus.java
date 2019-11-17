@@ -1,0 +1,14 @@
+package com.onlinestock.core.good;
+
+public enum GoodsStatus {
+    REGISTERED,
+    VERIFICATION_COMPLETED,
+    ACCEPTED_FOR_STORAGE,
+    LOST_BY_CARRIER,
+    FORFEIT,
+    RECYCLED,
+    LOST_IN_STOCK,
+    REMOVED_FROM_STORAGE,
+    RELEASE_ALLOWED,
+    REMOVED_FROM_STOCK;
+}

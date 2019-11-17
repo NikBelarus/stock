@@ -1,0 +1,1 @@
+ALTER TABLE stock_cell ADD COLUMN cell_price NUMERIC(10,2);

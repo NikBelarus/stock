@@ -1,0 +1,15 @@
+ALTER TYPE goods_state RENAME TO goods_state_old;
+CREATE TYPE goods_state AS ENUM('REGISTERED',
+    'VERIFICATION_COMPLETED',
+    'ACCEPTED_FOR_STORAGE',
+    'LOST_BY_CARRIER',
+    'LOST_IN_STOCK',
+    'FORFEIT',
+    'RECYCLED',
+    'REMOVED_FROM_STORAGE',
+    'RELEASE_ALLOWED',
+    'REMOVED_FROM_STOCK');
+ALTER TABLE good RENAME COLUMN state TO _state;
+ALTER TABLE good ADD COLUMN state goods_state not null;
+ALTER TABLE good DROP COLUMN _state;
+DROP TYPE goods_state_old;

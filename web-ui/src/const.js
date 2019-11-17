@@ -1,0 +1,20 @@
+export const API = {
+    ABOUT: "api/about",
+    LOGIN: "api/auth/login",
+    USERS: "api/users",
+    SIGN_UP: "api/auth/signup",
+    COMPANIES: "api/companies",
+    EXPANDED_COMPANIES: "api/companies/expanded",
+    PAY: "api/pay",
+    STOCKS: "api/stocks",
+    CARRIERS: "api/carriers",
+    DRIVERS: "api/drivers",
+    TTH: "api/consignments",
+    THH_VERIFICATION: "api/consignments/verification",
+    INCONSISTENCY: "api/inconsistency",
+    CANCELLATION: "api/cancellation",
+    STOCK_CELLS: "api/cells",
+    TTH_REGISTRATION: "api/consignments/complete_registration",
+    REPORT: "/api/report",
+    GOODS: "api/goods"
+};

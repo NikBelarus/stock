@@ -1,0 +1,1 @@
+ALTER TABLE good ADD COLUMN volume NUMERIC (6,2);
